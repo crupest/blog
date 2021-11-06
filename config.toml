@@ -1,4 +1,4 @@
-baseURL                = "https://blog.crupest.life/"
+baseURL                = "https://crupest.life/"
 languageCode           = "zh"
 title                  = "crupest 的博客"
 theme                  = "diary"
