@@ -30,6 +30,10 @@ featured_image: images/crupest.png
 
 传送门：[GitHub](https://github.com/crupest)
 
+# 朋友们
+
+{{< figure width="100" src="http://hszsoftware.fun/upload/2022/01/天子-ce8bc53bfae84b878b2ced7d7d21a27b.jpg" link="http://hszsoftware.fun" target="_blank" title="hszSoftware" >}}
+
 # 关于博客
 
 本博客采用 [CC-BY-NC 4.0 协议](http://creativecommons.org/licenses/by-nc/4.0/) 。
