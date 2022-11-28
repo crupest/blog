@@ -4,11 +4,10 @@ theme                  = "diary"
 DefaultContentLanguage = "en"
 hasCJKLanguage         = true
 enableEmoji            = true
-enableGitInfo          = true
 copyright              = "by crupest with CC-BY-NC 4.0 license"
 
 [frontmatter]
-lastmod = [ "lastmod", ":git", "date", "publishDate" ]
+lastmod = [ "lastmod", ":fileModTime", "date", "publishDate" ]
 
 [params]
 enableGitalk = true
