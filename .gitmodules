@@ -1,3 +1,3 @@
-[submodule "themes/diary"]
-	path = themes/diary
+[submodule "themes/hugo-theme-diary"]
+	path = themes/hugo-theme-diary
 	url = https://github.com/crupest/hugo-theme-diary.git
