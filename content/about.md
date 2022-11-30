@@ -1,7 +1,7 @@
 ---
 title: "关于我——crupest"
 date: 2020-06-19T23:45:08+08:00
-featured_image: images/crupest.png
+featured_image: /images/crupest.png
 ---
 
 # 自我介绍

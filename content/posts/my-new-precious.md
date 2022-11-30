@@ -5,7 +5,7 @@ categories: 随笔
 tags:
   - 宝贝
 description: 展示我的一个新宝贝，以表达我的喜悦之情。
-featured_image: images/huawei-pad-and-keyboard.jpg
+featured_image: /images/huawei-pad-and-keyboard.jpg
 ---
 最近搞来了一个新宝贝——华为平板m6。
 然后花血本买了它的原装键盘套。

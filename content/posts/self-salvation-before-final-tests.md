@@ -5,7 +5,7 @@ categories: 随笔
 tags:
   - jibber-jabber
 description: 一篇在期末考试前的牢骚记录。
-featured_image: images/fuck-web-dev.png
+featured_image: /images/fuck-web-dev.png
 ---
 
 # 我在写什么

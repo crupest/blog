@@ -6,7 +6,7 @@ tags:
   - jibber-jabber
   - 电影
 description: 开学时期的一些杂谈，以及一个非正式的电影观后感。
-featured_image: images/wreck-it.ralph-snapshot.png
+featured_image: /images/wreck-it.ralph-snapshot.png
 ---
 ### 前言
 

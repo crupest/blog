@@ -4,7 +4,7 @@ date: 2020-06-19T00:25:07+08:00
 categories: 随笔
 tags:
   - jibber-jabber
-featured_image: images/grades-in-2019-2.png
+featured_image: /images/grades-in-2019-2.png
 description: 我的分裂记录。
 ---
 
