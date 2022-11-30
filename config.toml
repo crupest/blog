@@ -10,14 +10,14 @@ copyright              = "by crupest with CC-BY-NC 4.0 license"
 [frontmatter]
 lastmod = [ "lastmod", ":git", "date", "publishDate" ]
 
-[params]
-enableGitalk = true
+#[params]
+#enableGitalk = true
 
-[params.gitalk]
-owner         = "crupest"
-repo          = "blog"
-client_id     = "d42abdc40e589fa82863"
-client_secret = "4ca85252508db58e77122081fd95b73a71f09aec"
+#[params.gitalk]
+#owner         = "crupest"
+#repo          = "blog"
+#client_id     = "d42abdc40e589fa82863"
+#client_secret = "4ca85252508db58e77122081fd95b73a71f09aec"
 
 [[menu.main]]
 url    = "/posts"
@@ -35,11 +35,11 @@ name   = "Tags"
 weight = 3
 
 [[menu.main]]
-url    = "/index.xml"
-name   = "RSS Feed"
-weight = 5
-
-[[menu.main]]
 url    = "/about"
 name   = "About"
 weight = 4
+
+[[menu.main]]
+url    = "/index.xml"
+name   = "RSS Feed"
+weight = 5
