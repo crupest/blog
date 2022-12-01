@@ -1,39 +1,39 @@
 ---
-title: "关于我——crupest"
+title: "About Me - crupest"
 date: 2020-06-19T23:45:08+08:00
 featured_image: /images/crupest.png
 ---
 
-# 自我介绍
+# Self Introduction
 
-姓名： crupest（我是不会轻易地告诉你我的真名的！）
+Nickname: crupest (Want to know real name? Happy figuring it out yourself.)
 
-性别：男
+Gender: Male
 
-学校：武汉轻工大学，计算机专业
+Location: China
 
-爱好：
+Education: Wuhan Poly Technique University for Bachelor of Computer Science And Technology
 
-- 写代码
+Love:
 
-- 和好朋友玩
+- Coding
+- Friends
+- League Of Legends
 
-- 英雄联盟
+Enemy:
 
-天敌：
+- Sports
+- Sports
+- Sports
 
-- 运动
+Portal: [GitHub](https://github.com/crupest)
 
-- 运动
-
-- 运动
-
-传送门：[GitHub](https://github.com/crupest)
-
-# 朋友们
+# Friends
 
 {{< figure width="100" src="http://hszsoftware.fun/upload/2022/01/天子-ce8bc53bfae84b878b2ced7d7d21a27b.jpg" link="http://hszsoftware.fun" target="_blank" title="hszSoftware" >}}
 
-# 关于博客
+# About Blog
 
-本博客采用 [CC-BY-NC 4.0 协议](http://creativecommons.org/licenses/by-nc/4.0/) 。
+[![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+
+This work is licensed under a [CreativeCommons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
