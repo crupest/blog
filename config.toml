@@ -1,4 +1,5 @@
 languageCode           = "en"
+baseURL                = "https://blog.crupest.life/"
 title                  = "crupest's life"
 theme                  = "diary"
 DefaultContentLanguage = "en"
@@ -9,15 +10,6 @@ copyright              = "by crupest with CC-BY-NC 4.0 license"
 
 [frontmatter]
 lastmod = [ "lastmod", ":git", "date", "publishDate" ]
-
-#[params]
-#enableGitalk = true
-
-#[params.gitalk]
-#owner         = "crupest"
-#repo          = "blog"
-#client_id     = "d42abdc40e589fa82863"
-#client_secret = "4ca85252508db58e77122081fd95b73a71f09aec"
 
 [[menu.main]]
 url    = "/posts"
