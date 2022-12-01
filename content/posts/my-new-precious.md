@@ -3,6 +3,7 @@ title: "一个新宝贝"
 date: 2020-07-12T16:21:10Z
 categories: 随笔
 tags:
+  - jibber-jabber
   - 宝贝
 description: 展示我的一个新宝贝，以表达我的喜悦之情。
 featured_image: /images/huawei-pad-and-keyboard.jpg

@@ -2,10 +2,10 @@
 title: "Use PaddleOCR"
 date: 2022-11-30T13:25:36+08:00
 description: Simple steps to use PaddleOCR.
-category: Coding
+categories: Coding
 tags:
-  - artificial-intelligence
-  - python
+  - AI
+  - Python
   - OCR
 ---
 

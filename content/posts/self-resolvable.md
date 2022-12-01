@@ -2,7 +2,7 @@
 title: "Self Resolvable"
 date: 2019-06-30T18:21:30+08:00
 lastmod: 2019-07-23T23:57:35+08:00
-categories: C++
+categories: Coding
 tags:
   - C++
   - CruUI

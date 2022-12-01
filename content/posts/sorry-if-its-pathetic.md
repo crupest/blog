@@ -1,7 +1,7 @@
 ---
 title: "Sorry if Its Pathetic"
 date: 2022-12-01T13:34:41+08:00
-categories: essay
+categories: Essay
 tags:
   - jibber-jabber
 description: "I'm sorry if it's pethetic."
