@@ -3,3 +3,5 @@ resources/_gen/
 
 content/posts/*.docx
 content/posts/*.docx.md
+
+.DS_Store
