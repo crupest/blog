@@ -1,2 +1,5 @@
 public
 resources/_gen/
+
+content/posts/*.docx
+content/posts/*.docx.md
