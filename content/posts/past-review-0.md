@@ -1,5 +1,5 @@
 ---
-title:  "Past Review - 0"
+title: "Past Review 0"
 date: 2022-12-03T14:16:49+08:00
 categories: Essay
 tags:
