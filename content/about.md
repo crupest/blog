@@ -34,6 +34,6 @@ Portal: [GitHub](https://github.com/crupest)
 
 ## About Blog
 
-[![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](https://creativecommons.org/licenses/by-nc/4.0/)
+[![Creative Commons License](/images/blog-license.png)](https://creativecommons.org/licenses/by-nc/4.0/)
 
 This work is licensed under a [CreativeCommons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/).
