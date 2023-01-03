@@ -7,6 +7,7 @@ tags:
   - C++
   - CruUI
 description: 一个 C++ 设计中的生命周期小工具。
+draft: true
 ---
 
 我实在是不知道怎么把这个东西翻译成中文。

@@ -7,8 +7,9 @@ tags:
 - jibber-jabber
 - past-review
 description: This is the first article in the past-review series.
+draft: true
 ---
-# Why
+## Why
 
 Everybody has a past since the day they were born. So do I. The past
 events affect our present life somehow. I have a lot of old things to
@@ -28,7 +29,7 @@ But I continue to write this in English. Because I don't ever expect
 somebody would read this except myself. And this is also a start of
 practice.
 
-# At First
+## At First
 
 At first, it backs to when I was studying at No.1 High School Attached
 to CCNU at 2016 (or maybe 2015) for my second year of high school
@@ -68,7 +69,7 @@ some Chinese Ancient medicine and a small machine to stimulate sleeping.
 That day I felt awful. And since then, big change of my whole life
 happened nearly every day.
 
-# Temporarily Stop {#temporarily-stop-1}
+## Temporarily Stop
 
 I know my expression looks wired somehow. Again, it might be caused by
 my chaotic mind and memory. And I'm not so good at writing long English

@@ -5,6 +5,7 @@ categories: 随笔
 tags:
   - jibber-jabber
 description: My meaning for life!
+draft: true
 ---
 
 人生永远都是那么的精彩。

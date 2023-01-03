@@ -7,6 +7,7 @@ tags:
 - jibber-jabber
 - past-review
 description: Where love begins!
+draft: true
 ---
 This is the second article for *past review* series. I had never thought
 this would come so fast.
@@ -16,7 +17,7 @@ about them in order of significance.
 
 So, what's next thing I want to talk about?
 
-# Begin of Love
+## Begin of Love
 
 You know, what's the most significant thing in recent years. I would say
 it was the start of my love. The *love* here literally means love about
