@@ -28,10 +28,6 @@ Enemy:
 
 Portal: [GitHub](https://github.com/crupest)
 
-## Friends
-
-{{< figure width="100" src="http://hszsoftware.fun/upload/2022/01/天子-ce8bc53bfae84b878b2ced7d7d21a27b.jpg" link="http://hszsoftware.fun" target="_blank" title="hszSoftware" >}}
-
 ## About Blog
 
 [![Creative Commons License](/images/blog-license.png)](https://creativecommons.org/licenses/by-nc/4.0/)
