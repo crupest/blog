@@ -55,7 +55,7 @@ By default, colors need a light and a dark variant unless explicitly noted.
 - push-button.[key].background.hover
 - push-button.[key].background.focus
 - push-button.[key].background.active
-- push-button.[key].text
+- push-button.text
 - push-button.disabled.background
 - push-button.disabled.text
 ```
@@ -67,7 +67,10 @@ By default, colors need a light and a dark variant unless explicitly noted.
 - outline-button.[key].border.hover
 - outline-button.[key].border.focus
 - outline-button.[key].border.active
-- outline-button.[key].text
+- outline-button.[key].text.normal
+- outline-button.[key].text.hover
+- outline-button.[key].text.focus
+- outline-button.[key].text.active
 - outline-button.disabled.border
 - outline-button.disabled.text
 ```
@@ -75,12 +78,11 @@ By default, colors need a light and a dark variant unless explicitly noted.
 *flat button*, button embed in background, used when button should not be so, showy?
 
 ``` plain
-- flat-button.[key].background.normal
-- flat-button.[key].background.hover
-- flat-button.[key].background.focus
-- flat-button.[key].background.active
+- flat-button.background.normal
+- flat-button.background.hover
+- flat-button.background.focus
+- flat-button.background.active
 - flat-button.[key].text
-- flat-button.disabled.background
 - flat-button.disabled.text
 ```
 
@@ -94,31 +96,45 @@ By default, colors need a light and a dark variant unless explicitly noted.
 - icon-button.disabled.color
 ```
 
-*summary for button*, merge all colors that can be commonly used.
+*summary for button*, merge all colors that can be **commonly** used.
 
 ``` plain
 - button.[key].normal
   - push-button.[key].background.normal
   - outline-button.[key].border.normal
-  - icon-button.[key].color.normal
+  - outline-button.[key].text.normal
   - flat-button.[key].text
+  - icon-button.[key].color.normal
 - button.[key].hover
   - push-button.[key].background.hover
   - outline-button.[key].border.hover
+  - outline-button.[key].text.hover
   - icon-button.[key].color.hover
 - button.[key].focus
   - push-button.[key].background.focus
   - outline-button.[key].border.focus
+  - outline-button.[key].text.focus
   - icon-button.[key].color.focus
 - button.[key].active
   - push-button.[key].background.active
   - outline-button.[key].border.active
+  - outline-button.[key].text.active
   - icon-button.[key].color.active
 - button.disabled
   - push-button.disabled.background
-  - push-button.disabled.text
   - outline-button.disabled.border
   - outline-button.disabled.text
-  - icon-button.disabled.color
   - flat-button.disabled.text
+  - icon-button.disabled.color
+```
+
+So the colors that need to be set individually are:
+
+``` plain
+- push-button.text
+- push-button.disabled.text
+- flat-button.background.normal
+- flat-button.background.hover
+- flat-button.background.focus
+- flat-button.background.active
 ```
