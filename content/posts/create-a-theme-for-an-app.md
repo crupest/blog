@@ -36,6 +36,16 @@ Some colors are key color based. Some are not. Key color indicates the action ty
 
 ## List All Colors
 
+By default, colors need a light and a dark variant unless explicitly noted.
+
+### Common
+
+``` plain
+- body.background
+- text.primary
+- text.secondary
+```
+
 ### Button
 
 *push button*, the most commonly used buttons, used as the button for primary action, or you don't know the type of button you should use.
@@ -48,4 +58,67 @@ Some colors are key color based. Some are not. Key color indicates the action ty
 - push-button.[key].text
 - push-button.disabled.background
 - push-button.disabled.text
+```
+
+*outline button*, the outline version of push button, used for second action, or where push button is not suitable.
+
+``` plain
+- outline-button.[key].border.normal
+- outline-button.[key].border.hover
+- outline-button.[key].border.focus
+- outline-button.[key].border.active
+- outline-button.[key].text
+- outline-button.disabled.border
+- outline-button.disabled.text
+```
+
+*flat button*, button embed in background, used when button should not be so, showy?
+
+``` plain
+- flat-button.[key].background.normal
+- flat-button.[key].background.hover
+- flat-button.[key].background.focus
+- flat-button.[key].background.active
+- flat-button.[key].text
+- flat-button.disabled.background
+- flat-button.disabled.text
+```
+
+*icon button*, button with an icon.
+
+``` plain
+- icon-button.[key].color.normal
+- icon-button.[key].color.hover
+- icon-button.[key].color.focus
+- icon-button.[key].color.active
+- icon-button.disabled.color
+```
+
+*summary for button*, merge all colors that can be commonly used.
+
+``` plain
+- button.[key].normal
+  - push-button.[key].background.normal
+  - outline-button.[key].border.normal
+  - icon-button.[key].color.normal
+  - flat-button.[key].text
+- button.[key].hover
+  - push-button.[key].background.hover
+  - outline-button.[key].border.hover
+  - icon-button.[key].color.hover
+- button.[key].focus
+  - push-button.[key].background.focus
+  - outline-button.[key].border.focus
+  - icon-button.[key].color.focus
+- button.[key].active
+  - push-button.[key].background.active
+  - outline-button.[key].border.active
+  - icon-button.[key].color.active
+- button.disabled
+  - push-button.disabled.background
+  - push-button.disabled.text
+  - outline-button.disabled.border
+  - outline-button.disabled.text
+  - icon-button.disabled.color
+  - flat-button.disabled.text
 ```
