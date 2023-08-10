@@ -1,0 +1,51 @@
+---
+title: "How to Create a Theme for an App"
+date: 2023-08-04T15:30:12+08:00
+categories: Coding
+tags:
+  - Web
+  - Design
+description: "A method to create a theme of an app by the developer himself/herself."
+draft: true
+---
+
+Recently I'm developing my [Timeline](https://github.com/crupest/Timeline) app. One of the goals is to refactor the theme, aka, color system.
+
+I used to try to implement a color system like this. User can choose a color as the primary color, and the app will generate a series of colors (palette) based on the primary color, which then are used to colorize the UI components. But I found it's not a good idea. The generated colors are not harmonious, so it's not good-looking. Maybe it's because I'm not a color expert.
+
+So I'm going to remove the custom color system and turn to use a fixed color palette. It will largely reduce the complexity. And I can implement the *dark mode* more easily.
+
+However, it's still a problem to design the colors in the palette. After I chose the primary color, which is most likely to be *blue*, I have to create other variants of the primary color and use them to colorize the UI components.
+
+So how to derive a palette from a primary color? How many colors do I need? Which color should be used on which UI component? What about different states of a component? These all become problems. And I have struggled on this for a long time.
+
+After a lot of tries, I come up with a rather easy process. First, I need to list all the colors I will use for all components and mark those that need to have both light and dark variants. Then I create colors for them, and do the test to ensure they are beautiful.
+
+1. List all components and the colors used by them (including colors for different states of components). At the same time, mark the colors that need to have both a dark and a light variant.
+2. Merge the colors that can be used at different places.
+3. Choose real colors for the colors needed.
+
+## Key Color
+
+Some colors are key color based. Some are not. Key color indicates the action type of a component. Basic key colors are:
+
+- *Primary*, the default color, used for primary action, or you don't know which key color should be used/.
+- *Secondary*, used for non-primary action.
+- *Create*, used for creating, success, or anything that you think is good.
+- *Danger*, used for deleting, or anything that you think is dangerous.
+
+## List All Colors
+
+### Button
+
+*push button*, the most commonly used buttons, used as the button for primary action, or you don't know the type of button you should use.
+
+``` plain
+- push-button.[key].background.normal
+- push-button.[key].background.hover
+- push-button.[key].background.focus
+- push-button.[key].background.active
+- push-button.[key].text
+- push-button.disabled.background
+- push-button.disabled.text
+```
