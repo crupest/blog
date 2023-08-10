@@ -25,6 +25,17 @@ After a lot of tries, I come up with a rather easy process. First, I need to lis
 2. Merge the colors that can be used at different places.
 3. Choose real colors for the colors needed.
 
+## What about CSS
+
+If we get the value of colors, how do we organize CSS. This is a important problem. Nowadays CSS allows us to use CSS variable, which is widely used for color system. It significantly increase the ability to establish logic structure of color system and reuse color values. Now the problem is how do we use CSS variables. How many CSS variables should we define?
+
+You may think that every color used by components should be defined by a single variable. However, this makes you CSS tedious. In the following section of listing colors, you can see that many components use the same color. It's mainly because those colors represent the same semantic of components. So those colors should be defined by CSS variables definitely. And components needing that semantic just use them. Meanwhile, some colors that used by a single color should also be organized together with the commonly used colors to change them easily (You don't have to seek them in other places). So the principles are two:
+
+1. Commonly used colors (for same semantic) should be defined in CSS variables and components use them.
+2. Colors used by a single components should be organized together with the colors above for convenience of control.
+
+So the anti-pattern is to define commonly used colors again for each component. They just makes code tedious with no real help.
+
 ## Key Color
 
 Some colors are key color based. Some are not. Key color indicates the action type of a component. Basic key colors are:
