@@ -1,5 +1,5 @@
 languageCode           = "en"
-baseURL                = "https://blog.crupest.life/"
+baseURL                = "https://crupest.life/blog"
 title                  = "crupest's life"
 theme                  = "diary"
 DefaultContentLanguage = "en"
